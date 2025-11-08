@@ -20,9 +20,16 @@
         <div class="qr-scanner">
             <h2>QR Code Scanner</h2>
             <input type="file" id="qr-image-upload" accept="image/*">
-            <canvas id="canvas" hidden></canvas>
+            <canvas id="canvas" hidden>
+                <!-- To display the QR code to be scanned -->
+            </canvas>
             <button id="start-scan">Start Scanning</button>
-            <p id="scan-result">Scan Result: <span>None</span></p>
+            <p id="scan-result">Scan Result: 
+                <span>
+                    None
+                    <!-- To be changed with the actual scan result -->
+                </span>
+            </p>
         </div>
 
         <div class="qr-generator">
@@ -36,7 +43,7 @@
 
     </main>
     <footer>
-        <p>&copy; 2025 QR On-site</p>
+        <p>&copy; 2025 QR On-site | ConsoleCzar</p>
     </footer>
 </body>
 </html>
