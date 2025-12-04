@@ -6,15 +6,29 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+<!-- [![GDGoC IIEST Shibpur](assets/gdsc-logo.png)](https://gdg.community.dev/gdg-on-campus-indian-institute-of-engineering-science-and-technology-shibpur-howrah-india/)
+[![CodeIIEST](assets/codeiiest-logo.png)](https://www.codeiiest.in/) -->
+
+<div style="display: inline-block;">
+    <a href="https://gdg.community.dev/gdg-on-campus-indian-institute-of-engineering-science-and-technology-shibpur-howrah-india/">
+        <img src="assets/gdsc-logo.png" alt="GDGoC IIEST Shibpur" style="max-width: 25px; height: auto;">
+    </a>
+    <a href="https://www.codeiiest.in/">
+        <img src="assets/codeiiest-logo.png" alt="CodeIIEST" style="max-width: 25px; height: auto;">
+    </a>
+</div>
+
+[![Winter of Open Source](https://img.shields.io/badge/Winter%20of%20Open%20Source-2025-purple)](https://winter-of-open-source.vercel.app/)
+
 **QR On-Site** is a web-based QR Code Scanner and Generator built from scratch without external QR libraries.
 
-This project is part of IIEST, Shibpur's **[Winter of Open Source](https://winter-of-open-source.vercel.app/)**, where contributors learn to implement QR code encoding/decoding algorithms from the ground up, understand error correction, and build a fully functional QR code tool.
+This project is part of **IIEST, Shibpur's** **[Winter of Open Source](https://winter-of-open-source.vercel.app/)**, where contributors learn to implement QR code encoding/decoding algorithms from the ground up, understand error correction, and build a fully functional QR code tool.
 
 ## Web Interface
 
 <!-- Add your screenshots here -->
 <p align="center">
-  <img src="assets/screenshots/image.png" alt="QR Generator Demo" width="1000">
+  <img src="assets/image.png" alt="QR Generator Demo" width="1000">
   <!-- <img src="assets/screenshots/scanner-demo.png" alt="QR Scanner Demo" width="400"> -->
 </p>
 
