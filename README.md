@@ -11,10 +11,10 @@
 
 <div style="display: inline-block;">
     <a href="https://gdg.community.dev/gdg-on-campus-indian-institute-of-engineering-science-and-technology-shibpur-howrah-india/">
-        <img src="assets/gdsc-logo.png" alt="GDGoC IIEST Shibpur" style="max-width: 25px; height: auto;">
+        <img src="assets/gdsc-logo.png" alt="GDGoC IIEST Shibpur" style="max-width: 25px; height: 25px;">
     </a>
     <a href="https://www.codeiiest.in/">
-        <img src="assets/codeiiest-logo.png" alt="CodeIIEST" style="max-width: 25px; height: auto;">
+        <img src="assets/codeiiest-logo.png" alt="CodeIIEST" style="max-width: 25px; height: 25px;">
     </a>
 </div>
 
