@@ -24,6 +24,8 @@ community include:
   and learning from the experience
 * Focusing on what is best not just for us as individuals, but for the
   overall community
+* Being patient with beginners and first-time contributors
+* Helping others learn and grow
 
 Examples of unacceptable behavior include:
 
@@ -33,8 +35,22 @@ Examples of unacceptable behavior include:
 * Public or private harassment
 * Publishing others' private information, such as a physical or email
   address, without their explicit permission
+* Plagiarizing code or claiming others' work as your own
+* Submitting low-quality or spam contributions
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
+
+## Winter of Open Source Specific Guidelines
+
+As participants in Winter of Open Source, we additionally commit to:
+
+* **Fair Play**: Not gaming the points system or creating fake issues/PRs
+* **Quality Over Quantity**: Focusing on meaningful contributions, not just earning points
+* **Respect Review Time**: Understanding that maintainers review PRs within 24 hours and being patient
+* **Follow Assignment Rules**: Only working on one issue at a time and completing within 48 hours
+* **Honest Contribution**: Writing our own code and not plagiarizing from other sources
+* **Helpful Collaboration**: Assisting fellow contributors when they're stuck
+* **Constructive Feedback**: Providing kind and helpful code review comments
 
 ## Enforcement Responsibilities
 
@@ -45,22 +61,28 @@ or harmful.
 
 Community leaders have the right and responsibility to remove, edit, or reject
 comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
+not aligned with this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.
 
 ## Scope
 
 This Code of Conduct applies within all community spaces, and also applies when
 an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+Examples of representing our community include:
+- Using an official e-mail address
+- Posting via an official social media account
+- Acting as an appointed representative at an online or offline event
+- Participating in the Winter of Open Source Discord server
+- Commenting on issues and pull requests
 
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-rohitrahuldey@gmail.com.
+reported to the community leaders responsible for enforcement at:
+
+**Discord**: Contact any moderator with the "Mentor" role
+**Email**: [Add mentor email here]
+
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -106,11 +128,26 @@ Violating these terms may lead to a permanent ban.
 ### 4. Permanent Ban
 
 **Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
+standards, including sustained inappropriate behavior, harassment of an
 individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within
 the community.
+
+## Winter of Open Source Violations
+
+Additional consequences specific to WOS participation:
+
+* **First Offense**: Warning and point deduction (-20 points)
+* **Second Offense**: Temporary suspension from event (1 week)
+* **Third Offense**: Permanent removal from event and disqualification
+
+Examples of violations include:
+- Plagiarism or claiming others' work
+- Creating fake issues to farm points
+- Spamming low-quality PRs
+- Harassment of maintainers or other contributors
+- Attempting to game the points system
 
 ## Attribution
 
