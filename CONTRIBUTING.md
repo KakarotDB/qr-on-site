@@ -156,8 +156,8 @@ git push origin fix/issue-number-short-description
 | `documentation` | Documentation improvements |
 | `bug` | Something isn't working |
 | `feature` | New feature request |
-<!-- | `good-first-issue` | Great for newcomers |
-| `beginner-friendly` | Suitable for beginners | -->
+| `good-first-issue` | Great for newcomers |
+| `beginner-friendly` | Suitable for beginners |
 
 ### Points Per PR
 
@@ -254,7 +254,7 @@ function applyMask0(row, col, bit) {
 
 ## Getting Help
 
-- **Discord**: [Winter of Open Source Server](https://discord.gg/your-invite-link)
+- **Discord**: [Winter of Open Source Server](https://discord.gg/EzvckznUDG) (everyone is requested to join this server)
 - **GitHub Discussions**: Ask questions, share ideas
 - **Issues**: Comment to reach maintainers
 
