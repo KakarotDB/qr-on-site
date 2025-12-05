@@ -1,15 +1,8 @@
 # QR On-Site
 
-<a href="https://winter-of-open-source.vercel.app/"><img src="https://raw.githubusercontent.com/datavorous/tinytracer/main/media/banner.png"></a>
+<a href="https://winter-of-open-source.vercel.app/"><img src="assets/banner.png"></a>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-<a href="https://gdg.community.dev/gdg-on-campus-indian-institute-of-engineering-science-and-technology-shibpur-howrah-india/"><img src="assets/gdsc-logo.png" alt="GDGoC IIEST Shibpur" height="20"></a>
-<a href="https://www.codeiiest.in/"><img src="assets/codeiiest-logo.png" alt="CodeIIEST" height="20"></a>
-
-[![Winter of Open Source](https://img.shields.io/badge/Winter%20of%20Open%20Source-2025-purple)](https://winter-of-open-source.vercel.app/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) <a href="https://gdg.community.dev/gdg-on-campus-indian-institute-of-engineering-science-and-technology-shibpur-howrah-india/"><img src="assets/gdsc-logo.png" alt="GDGoC IIEST Shibpur" height="20"></a> <a href="https://www.codeiiest.in/"><img src="assets/codeiiest-logo.png" alt="CodeIIEST" height="20"></a> [![Winter of Open Source](https://img.shields.io/badge/Winter%20of%20Open%20Source-2025-purple)](https://winter-of-open-source.vercel.app/)
 
 **QR On-Site** is a web-based QR Code Scanner and Generator built from scratch without external QR libraries.
 
