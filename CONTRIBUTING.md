@@ -188,6 +188,7 @@ git push origin fix/issue-number-short-description
 - **Only merged PRs count**
 - Work on **only 1 issue at a time**
 - Complete within **48 hours** or issue gets unassigned
+- Moreover, you can **raise your own issues**, those will be added if impactful for the repo
 
 ---
 
