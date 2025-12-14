@@ -7,6 +7,9 @@ We're excited to have you contribute to this QR Code Scanner and Generator proje
 
 ---
 
+> [!IMPORTANT]
+> The issues are open for current **IIEST, Shibpur** students only.
+
 ## Table of Contents
 
 - [Setting Up Local Environment](#setting-up-local-environment)
