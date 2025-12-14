@@ -157,6 +157,9 @@ git push origin fix/issue-number-short-description
 | `feature` | New feature request |
 | `good-first-issue` | Great for newcomers |
 | `beginner-friendly` | Suitable for beginners |
+| `qr-generator` | QR Generator improvement |
+| `qr-scanner` | QR Scanner improvement |
+| `UI/UX` | Website Design improvements |
 
 ### Points Per PR
 
