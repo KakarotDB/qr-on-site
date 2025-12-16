@@ -1,23 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 
+:root {
+    --bg-body: hsl(336 0% 1%);
+    --bg-header: hsl(197 19% 8%);
+    --bg-card: hsl(210 18% 9%);
+    --bg-input: rgba(255, 255, 255, 0.9);
+    --bg-result: rgba(255, 255, 255, 0.05);
+
+    --text-main: #e6e6e6;
+    --text-heading: hsl(197 79% 94%);
+    --text-footer: white;
+
+    --accent-green: hsl(146, 90%, 37%);
+    --accent-green-hover: hsl(146, 90%, 32%);
+
+    --border-color: rgba(255, 255, 255, 0.2);
+    --shadow-color: rgb(38, 38, 38);
+}
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
+body.light-mode {
+    --bg-body: hsl(200, 19%, 88%);
+    --bg-header: hsl(0, 0%, 95%);
+    --bg-card: hsl(0, 0%, 100%);
+    --bg-input: #ffffff;
+    --bg-result: rgba(0, 0, 0, 0.05);
+
+    --text-main: #333333;
+    --text-heading: #111111;
+    --text-footer: #333333;
+
+    --border-color: rgba(0, 0, 0, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin: 0;
+    color: var(--accent-green);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#theme-toggle:hover {
+    transform: rotate(15deg) scale(1.1);
+    background: none;
+    color: var(--accent-green-hover);
+}
+
+.sun-icon {
+    display: none
+}
+
+.moon-icon {
+    display: block
+
+}
+
+body.light-mode .sun-icon {
+    display: block
+}
+
+body.light-mode .moon-icon {
+    display: none
+}
+
 
 header {
-    background-color: hsl(197 19% 8%);
-    color: hsl(146, 90%, 37%);
+    background-color: var(--bg-header);
+    color: var(--accent-green);
     padding: 20px 20px;
     text-align: left;
     font-family: Inter, sans-serif;
     font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     font-size: 1.5em;
+    margin: 0;
     display: inline-block;
     background-image: linear-gradient(to left, hsl(146, 90%, 37%), hsl(146, 91%, 50%));
     background-clip: text;
@@ -27,7 +96,7 @@ header h1 {
 }
 
 body {
-    background: hsl(336 0% 1%);
+    background: var(--bg-body);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -38,7 +107,7 @@ body {
     width: 100%;
     margin: 0 0 20px 0;
     font-size: 1.5em;
-    color: hsl(0, 0%, 90%);
+    color: var(--text-main);
     text-align: center;
 }
 
@@ -50,8 +119,8 @@ main {
     padding: 30px 20px 140px;
     font-size: 1em;
 
-    background: hsl(0, 0%, 5%);
-    color: #e6e6e6;
+    background: var(--bg-body);
+    color: var(--text-main);
 
     flex: auto;
     min-height: calc(100vh - 120px);
@@ -60,7 +129,7 @@ main {
 }
 
 .column {
-    background: rgba(255, 255, 255, 0.04);
+    background: var(--bg-card);
     padding: 20px;
     flex: 1 1 0;
 
@@ -71,10 +140,10 @@ main {
 
 .qr-scanner,
 .qr-generator {
-    background: hsl(210 18% 9%);
+    background: var(--bg-card);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 4px 0 rgb(38, 38, 38);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 4px 0 var(--shadow-color);
     padding: 20px;
     flex: 1 1 0;
     min-width: 280px;
@@ -83,7 +152,7 @@ main {
 .qr-scanner h2,
 .qr-generator h2 {
     margin-bottom: 15px;
-    color: hsl(197 79% 94%)
+    color: var(--text-heading);
 }
 
 
@@ -93,7 +162,7 @@ input[type="text"] {
     padding: 10px;
     width: 100%;
     margin-bottom: 10px;
-    border: black 2px solid;
+    border: 2px solid var(--text-main);
     border-radius: 4px;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.9);
@@ -120,7 +189,7 @@ input[type="file"] {
     margin-top: 15px;
     padding: 10px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-result);
     min-height: 40px;
 }
 
@@ -155,12 +224,24 @@ button:active {
 
 
 footer {
-    background-color: #111618;
-    color: white;
+    background-color: var(--bg-header);
+    color: var(--text-footer);
     text-align: center;
     padding: 10px 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -4px 12px var(--shadow-color);
+}
+
+body.light-mode #theme-toggle {
+    color: #0d0d0d;
+    fill: none;
+}
+
+body.light-mode header h1 {
+    background-image: none;
+    background-clip: initial;
+    -webkit-background-clip: initial;
+    color: hsl(0, 0%, 10%);
 }

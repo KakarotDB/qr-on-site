@@ -7,44 +7,63 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
     <script defer src="js/script.js"></script>
-
-    <header>
-        <h1>QR On-site</h1>
-    </header>
 </head>
 
 <body>
-    <main>
+<header>
+    <h1>QR On-site</h1>
+    <button id="theme-toggle" aria-label="Toggle Dark Mode">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
 
-        <p class="description">This is a simple QR code Scanner and Generator website.</p>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+</header>
 
-        <div class="qr-scanner">
-            <h2>QR Code Scanner</h2>
-            <input type="file" id="qr-image-upload" accept="image/*">
-            <canvas id="canvas" hidden>
-                <!-- To display the QR code to be scanned -->
-            </canvas>
-            <button id="start-scan">Start Scanning</button>
-            <p id="scan-result">Scan Result: 
-                <span>
+<main>
+
+    <p class="description">This is a simple QR code Scanner and Generator website.</p>
+
+    <div class="qr-scanner">
+        <h2>QR Code Scanner</h2>
+        <input type="file" id="qr-image-upload" accept="image/*">
+        <canvas id="canvas" hidden>
+            <!-- To display the QR code to be scanned -->
+        </canvas>
+        <button id="start-scan">Start Scanning</button>
+        <p id="scan-result">Scan Result:
+            <span>
                     None
-                    <!-- To be changed with the actual scan result -->
+                <!-- To be changed with the actual scan result -->
                 </span>
-            </p>
-        </div>
+        </p>
+    </div>
 
-        <div class="qr-generator">
-            <h2>QR Code Generator</h2>
-            <input type="text" id="qr-input" placeholder="Enter the text to generate QR code">
-            <button id="generate-qr">Generate QR</button>
-            <div id="qr-code">
-                <!-- To display QR code here, will be updated dynamically -->
-            </div>
+    <div class="qr-generator">
+        <h2>QR Code Generator</h2>
+        <input type="text" id="qr-input" placeholder="Enter the text to generate QR code">
+        <button id="generate-qr">Generate QR</button>
+        <div id="qr-code">
+            <!-- To display QR code here, will be updated dynamically -->
         </div>
+    </div>
 
-    </main>
-    <footer>
-        <p>&copy; 2025 QR On-site | ConsoleCzar</p>
-    </footer>
+</main>
+<footer>
+    <p>&copy; 2025 QR On-site | ConsoleCzar</p>
+</footer>
 </body>
 </html>

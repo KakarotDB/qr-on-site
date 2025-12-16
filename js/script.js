@@ -330,4 +330,23 @@ document.getElementById('start-scan').addEventListener('click', () => {
 	fileInput.value = ''; // Reset input for next scan
 });
 
+//For theme toggle
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body
 
+// Check saved preference on load
+const currentTheme = localStorage.getItem('theme');
+if (currentTheme) {
+    body.classList.add(currentTheme);
+}
+
+//Event listener for the click button
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle("light-mode");
+
+    if(body.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light-mode');
+    } else {
+        localStorage.setItem('theme', null);
+    }
+})
